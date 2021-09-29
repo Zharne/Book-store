@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+    <html>  
+    <body style="background-color:grey;"></body>
+
+        <form>
+        <form action="/action_page.php" autocomplete="on"></form>
+        Name <span style="color: red;">*</span><br>
+        <input type="text" placeholder="enter name" name="name" required><br>
+        <br>
+        Telephone <span style="color:red;">*</span><br>
+        <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+        <small>Format: 123-45-678</small>
+        <br><br>
+        Email address <span style="color:red;">*</span><br>
+        <input type="text" placeholder="enter email address" name="email" required><br>
+        <br>
+        Books<br>
+        <label for="books">Choose a book:</label>
+        <select id="books" name="books">
+        <option value="othello">Othello</option>
+        <option value="girl code">Girl Code</option>
+        <option value="chicken soup for the soul">Chicken soup for the soul</option>
+        <option value="the subconscious mind">The Subconscious Mind</option>
+        <option value="think and grow rich">Think and grow rich</option>>
+        </select><br>
+        <br>
+        <input type="number" min="1" max="5" step="1">
+        <br>
+        <br>
+        <br>
+        <input type="submit"><br>
+        
+        </form>
+        
+    </body>
+
+    </html>
