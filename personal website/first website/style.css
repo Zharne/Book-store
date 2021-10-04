@@ -1,5 +1,5 @@
 /* The <ul> tag defines an unordered (bulleted) list */
-ul {
+ul { 
     /* Remove list bullets */
     list-style-type: none;
     
