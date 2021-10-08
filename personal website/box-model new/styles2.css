@@ -5,6 +5,9 @@
 }
 body {
   font-family: arial;
+  background-image:url(background.jpeg) ; 
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .main {
   margin: 2%;

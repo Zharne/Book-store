@@ -3,3 +3,16 @@ table,th,td{
     border-collapse: collapse;
     width: 100%;
 }
+
+.h1{
+    text-underline-position: below;
+    text-align: center;
+    text-emphasis-color: red;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h1{
+    text-align: center;
+}
