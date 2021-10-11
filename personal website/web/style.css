@@ -61,7 +61,7 @@ body {
       width: 20%;
       display:inline-flex;
       border-radius: 5px;
-      margin: 2%;
+      margin: 3%;
       grid-template-columns: repeat(2, 1fr);
       column-gap: 20px;
     }
